@@ -179,59 +179,7 @@ nav::after{
 }
 
 
-    .jeep{
-        height: 320px;
-        grid-column: 1;
-        margin-left: 40px;
-    }
-    .p{
-        font-size: 70px;
-        margin: 0;
-        margin-bottom: 16px;
-        line-height: .5;
-    }
-    .pp{
-        font-size: 65px;
-        margin: 0;
-        margin-bottom: 20px;
-        line-height: .7;
-    }
-    .ppp{
-        margin: 0;
-        font-size: 52px;
-        line-height: .3;
-        margin-bottom: 4px;
-    }
-    .pppp{
-        margin: 0;
-        font-size: 55px;
-        margin-bottom: 0px
-        ;
-    }
-    .aqui{
-        margin-top: 0;
-        font-weight: 700;
-        line-height: 1.1;
-        font-family: Poppins;
-        font-size: 15px;
-    }
-    .logo-svg{
-        height: 52px;
-       
-    }
-    .text{
-        margin-left: -60px;
-    }
-    .tudo{
-        align-items: center;
-    }
-
-    .man img{
-        height: 320px;
-        grid-column: 3;
-        margin-left: -50px;
-    }
-
+    
 @media (max-width: 1200px){
     .text{
         margin-left: 60px;
@@ -373,8 +321,7 @@ nav::after{
     .pppp{
         margin: 0;
         font-size: 46px;
-        margin-bottom: 0px
-        ;
+        margin-bottom: 0px;
     }
     .aqui{
         margin-top: 0;
