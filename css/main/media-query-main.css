@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media (max-width: 426px) {
+  /* Celular Grande */
+  .Tlt {
+    margin: 0px auto;
+    width: 100%;
+  }
+  .Sgd{
+    width: 100%;
+  }
+
+  .list-one{
+    font-size: 10pt;
+  }
+}
+@media (min-width: 427px) and (max-width: 665px) {
+  /* Celular Grande */
+  body {
+    background: purple;
+  }
+}
+@media (min-width: 667px) and (max-width: 736px) {
+  /* tablets */
+  body {
+    background: blue;
+  }
+}
+@media (min-width: 737px) and (max-width: 1024px) {
+  /* tablets grandes/notebook */
+  body {
+    background: green;
+  }
+}
+@media (min-width: 1025px) {
+  /* tablets grandes/notebook */
+  body {
+    background: yellow;
+  }
+}
