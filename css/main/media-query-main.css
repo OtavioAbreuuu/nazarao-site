@@ -5,15 +5,26 @@
   .Tlt {
     margin: 0px auto;
     width: 100%;
+    font-size: 1.5rem;
   }
   .Sgd{
     width: 100%;
+    margin: 0px auto;
   }
 
   .list-one{
     font-size: 10pt;
   }
+  .banner-one{
+    height: 9em;
+    /* background-color: blue; */
+    padding: 0px auto;
+    width: 100%;
+    
+  }
+  
 }
+
 @media (min-width: 427px) and (max-width: 665px) {
   /* Celular Grande */
   body {
