@@ -11,7 +11,7 @@
      display: block;
      margin-left: -20px;
      margin-right: auto;
-     padding-bottom: 80px;
+     padding-bottom: 20px;
  }
  
 
@@ -23,11 +23,12 @@
 
  .grid-text{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 120px;
+    margin: 15%;
     /* background-color: red; */
 
     

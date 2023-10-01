@@ -22,6 +22,21 @@
     width: 100%;
     
   }
+  .grid-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    margin: 10px 5%;
+    /* background-color: red; */  
+    
+  }
+  .text-text{
+    margin: 20px auto;
+  }
+  
   
 }
 
@@ -30,17 +45,64 @@
   body {
     /* background: purple; */
   }
+
+  .grid-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    margin: 10px auto;
+    /* background-color: red; */  
+    
+  }
+  .text-text{
+    margin: 20px auto;
+  }
+  
 }
+
+
+
+
 @media (min-width: 667px) and (max-width: 736px) {
   /* tablets */
   body {
     /* background: blue; */
   }
+  .grid-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    margin: 30px 10%;
+    /* background-color: red; */  
+  }
+  .text-text{
+    margin: 0px auto;
+  }
+  
 }
 @media (min-width: 737px) and (max-width: 1024px) {
   /* tablets grandes/notebook */
   body {
     /* background: green; */
+  }
+  .grid-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    margin: 30px 10%;
+    /* background-color: red; */  
+  }
+  .text-text{
+    margin: 30px auto;
   }
 }
 @media (min-width: 1025px) {
