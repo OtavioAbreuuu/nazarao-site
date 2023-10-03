@@ -1,24 +1,29 @@
 @charset "UTF-8";
-
+main{
+    width: 100%;
+}
 .banner-one{
-    max-width: 100%;
+    
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
  }
  
  .img-banner{
-     max-width: 100%;
+    
+    
+     width: 99vw;
      display: block;
-     margin-left: -20px;
+     margin-left: 0px;
      margin-right: auto;
-     padding-bottom: 20px;
+     padding-bottom: 80px;
  }
  
 
  /* 1° section*/
 
  .grid{
-    max-width: 1400px;
+    /* max-width: 1400px; */
  }
 
  .grid-text{
@@ -28,7 +33,7 @@
     align-items: center;
     padding-top: 30px;
     padding-bottom: 120px;
-    margin: 15%;
+    margin:  30px 15%;
     /* background-color: red; */
 
     
@@ -91,9 +96,57 @@
 }
 .img-nazarao{
     margin-left: -0px;
+    width: 100%;
+    
 }
 .cartao-nazarao{
     height: 300px;
     /* padding-left: -600px;
     margin-left: -100px; */
 }
+
+
+
+
+.content_Painel{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to right,#02416F,#065B95);
+    height: 900px;
+    color: #E3E3E3;
+    
+}
+.imgPainelSolar{
+    width: 75%;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+.divClassImgPainelSolar{
+    display: flex;
+    justify-content: center;
+}
+.divClassTxtPainelSolar{
+    height: 400px;
+    align-items: start;
+}
+.divClassTxtPainelSolar h1{
+    font-size: 3rem;
+    color: #FFF;
+    width: 100%;
+}
+.divClassTxtPainelSolar p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.divClassTxtPainelSolar a {
+    color: #dfdfdfb2;
+    font-size:  25px;
+    text-decoration: underline;
+  }
+  .divClassTxtPainelSolar a:hover  {
+    color: #FFF;
+    font-size:  25px;
+    
+  }

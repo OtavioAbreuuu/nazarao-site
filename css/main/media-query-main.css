@@ -1,28 +1,28 @@
 @charset "UTF-8";
 
-@media (max-width: 426px) {
+@media (max-width: 425px) {
   /* Celular Grande */
+
   .Tlt {
     margin: 0px auto;
     width: 100%;
     font-size: 1.5rem;
   }
-  .Sgd{
+  .Sgd {
     width: 100%;
     margin: 0px auto;
   }
 
-  .list-one{
+  .list-one {
     font-size: 10pt;
   }
-  .banner-one{
+  .banner-one {
     height: 9em;
     /* background-color: blue; */
     padding: 0px auto;
     width: 100%;
-    
   }
-  .grid-text{
+  .grid-text {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -30,14 +30,44 @@
     padding-top: 40px;
     padding-bottom: 120px;
     margin: 10px 5%;
-    /* background-color: red; */  
-    
+    /* background-color: red; */
   }
-  .text-text{
+  .text-text {
     margin: 20px auto;
   }
-  
-  
+
+
+  .content_Painel {
+
+    height: 1200px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .imgPainelSolar {
+    padding-top: 100px;
+    width: 75%;
+    margin: 0px auto;
+    border-radius: 0px;
+  }
+  .divClassImgPainelSolar {
+    display: flex;
+    justify-content: center;
+  }
+  .divClassTxtPainelSolar {
+    height: 400px;
+    align-items: start;
+    margin: 0px auto;
+    width: 70%;
+  }
+  .divClassTxtPainelSolar h1 {
+    font-size: 1.5rem;
+    color: #fff;
+    
+  }
+  .divClassTxtPainelSolar p {
+    font-size: 16px;
+    font-weight: 400;
+  }
 }
 
 @media (min-width: 427px) and (max-width: 665px) {
@@ -45,33 +75,13 @@
   body {
     /* background: purple; */
   }
-
-  .grid-text{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 120px;
-    margin: 10px auto;
-    /* background-color: red; */  
-    
+  .Tlt {
+    margin: 0px auto;
+    width: 100%;
+    font-size: 1.5rem;
   }
-  .text-text{
-    margin: 20px auto;
-  }
-  
-}
 
-
-
-
-@media (min-width: 667px) and (max-width: 736px) {
-  /* tablets */
-  body {
-    /* background: blue; */
-  }
-  .grid-text{
+  .grid-text {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -79,33 +89,177 @@
     padding-top: 40px;
     padding-bottom: 120px;
     margin: 30px 10%;
-    /* background-color: red; */  
+    /* background-color: red; */
   }
-  .text-text{
+  .text-text {
+    margin: 20px auto;
+  }
+  .content_Painel {
+    height: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .imgPainelSolar {
+    padding-top: 100px;
+    width: 75%;
     margin: 0px auto;
+    border-radius: 0px;
   }
-  
+  .divClassImgPainelSolar {
+    display: flex;
+    justify-content: center;
+  }
+  .divClassTxtPainelSolar {
+    height: 400px;
+    align-items: start;
+    margin: 0px auto;
+    width: 70%;
+  }
+  .divClassTxtPainelSolar h1 {
+    font-size: 2rem;
+    color: #fff;
+    
+  }
+  .divClassTxtPainelSolar p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 666px) and (max-width: 736px) {
+  /* tablets */
+  body {
+    /* background: blue; */
+  }
+
+  .Tlt {
+    margin: 0px auto;
+    width:  75%;
+    font-size: 1.5rem;
+    
+  }
+
+  .grid-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    margin: 30px 10%;
+    /* background-color: red; */
+  }
+
+ .grid-text .img-nazarao{
+    display: flex;
+    justify-content: center;
+  }
+  .text-text {
+    margin: 30px auto;
+    align-items: center;
+  }
+
+  .content_Painel {
+    padding-bottom: 30px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .imgPainelSolar {
+    padding-top: 100px;
+    width: 75%;
+    margin: 0px auto;
+    border-radius: 0px;
+  }
+  .divClassImgPainelSolar {
+    display: flex;
+    justify-content: center;
+  }
+  .divClassTxtPainelSolar {
+    height: 400px;
+    align-items: start;
+    margin: 0px auto;
+    width: 70%;
+  }
+  .divClassTxtPainelSolar h1 {
+    font-size: 3rem;
+    color: #fff;
+    
+  }
+  .divClassTxtPainelSolar p {
+    font-size: 16px;
+    font-weight: 400;
+  }
 }
 @media (min-width: 737px) and (max-width: 1024px) {
   /* tablets grandes/notebook */
   body {
     /* background: green; */
   }
-  .grid-text{
+  .Tlt {
+    text-align: center;
+  }
+
+  .grid-text {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 120px;
     margin: 30px 10%;
-    /* background-color: red; */  
+    /* background-color: red; */
   }
-  .text-text{
+  .grid-text .img-nazarao{
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-text {
     margin: 30px auto;
+    align-items: center;
   }
+  
+/* 
+
+
+
+*/
+  .content_Painel {
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .imgPainelSolar {
+    padding-top: 100px;
+    width: 75%;
+    margin: 0px auto;
+    border-radius: 0px;
+  }
+  .divClassImgPainelSolar {
+    display: flex;
+    justify-content: center;
+  }
+  .divClassTxtPainelSolar {
+    height: 400px;
+    align-items: start;
+    margin: 0px auto;
+    width: 70%;
+  }
+  .divClassTxtPainelSolar h1 {
+    font-size: 3rem;
+    color: #fff;
+    
+  }
+  .divClassTxtPainelSolar p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  /* 
+  
+  */
 }
-@media (min-width: 1025px) {
+
+
+@media (min-width: 2025px) {
   /* tablets grandes/notebook */
   body {
     /* background: yellow; */
