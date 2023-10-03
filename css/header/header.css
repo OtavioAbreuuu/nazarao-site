@@ -48,7 +48,7 @@
     transition: 0.5s;
 
 }
-.list-one a:hover:after{
+.list-one a:hover:after, .list-one a.ativo::after{
     width: 100%;
 }
 li > a{

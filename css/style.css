@@ -30,6 +30,14 @@
 @import url('trabalhe-conosco/media-query-conosco.css');
 
 
+@import url('fale-conosco/fale-conosco.css');
+
+
+@import url('servicos/servicos.css');
+
+
+
+
 @media (max-width: 425px){}
 
 @media (min-width: 427px) and (max-width: 665px){}
