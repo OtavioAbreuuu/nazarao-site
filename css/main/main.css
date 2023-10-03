@@ -10,9 +10,7 @@ main{
  }
  
  .img-banner{
-    
-    
-     width: 99vw;
+     width: 95vw;
      display: block;
      margin-left: 0px;
      margin-right: auto;
@@ -100,7 +98,8 @@ main{
     
 }
 .cartao-nazarao{
-    height: 300px;
+    height: auto;
+    width: 100%;
     /* padding-left: -600px;
     margin-left: -100px; */
 }
@@ -119,7 +118,7 @@ main{
     
 }
 .imgPainelSolar{
-    width: 75%;
+    width: 90%;
     margin: 0px auto;
     border-radius: 10px;
 }

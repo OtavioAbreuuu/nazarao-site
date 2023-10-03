@@ -1,23 +1,7 @@
 @charset "UTF-8";
 
-.img-posto{
-   background-image: url('../../img-svg/img/Trabalhe\ conosco.jpg');
-   background-size: contain;
-   background-repeat: no-repeat;
-   height: 480px;
-   background-position: center end;
-   border-radius:8px;
-}
-.down{
-    padding-top: 80px;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin: 0 auto;
-}
-
-
 .simbolo-naz{
-    padding-top: 24px;
+    padding-top: 0px;
     height: 60px;
     margin: 0;
     padding-bottom: 12px;
@@ -35,18 +19,14 @@ h2{
     font-size: 1.1rem;
     width: 440px;
 }
-.down{
-    position: relative;
-}
+
 .info-banner{
     position: absolute;
     top: 120px;
     left: 220px;
      
 }
-.info-text{
-    margin-left: 40px;
-}
+
 .info-text a{
     color: white;
     font-size: 20px;
