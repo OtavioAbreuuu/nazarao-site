@@ -1,6 +1,46 @@
 main{
     max-width: 1400px;
 }
+.down{
+   width: 100%;
+   /* display: flex;
+   align-items: center;
+   justify-content: center; */
+}
+.img-posto{
+    width: 90%;
+    background-image: url('../../img-svg/img/Trabalhe\ conosco.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    height: 480px;
+    padding: 10px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFF;
+ }
+ .info-text a{
+    color: white;
+    font-size: 20px;
+}
+.info-text p{
+    max-width: 300px;
+}
+
+.info-text a::after{
+    content: "";
+    display: block;
+    width: 102px;
+    height: 3px;
+    background-color: #0669AC;
+    border-radius: 1px;
+}
+
+.info-text a:hover::after{
+    background-color: #075b92;
+}
 .conosco-trab h1{
     margin: auto;
     max-width: max-content;

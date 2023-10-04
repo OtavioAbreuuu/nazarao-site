@@ -7,6 +7,13 @@
     background-image: linear-gradient(90deg, #02416F 31.84%, #065B95 78.28%);
     padding-bottom: 60px;
 }
+.pnl-solar{
+    width: 100px;
+    margin: 0px auto;
+    background-color: #02416F;
+}
+
+
 .mini-titulo{
     color: white;
 }
@@ -20,6 +27,8 @@
     margin-left: 190px;
     margin-right: auto;
     max-width: 1400px;
+    background-color: #02416F;
+
     
 }
 .img-pnl-solar{
@@ -32,6 +41,7 @@
     border-radius: 8px;
     
 }
+
 .mini-titulo{
     color: #E3E3E3;
     font-size: 18px;
@@ -82,11 +92,15 @@
     left: 100px;
     height: 40px;
 }
-.bottom-dec{
-    position: absolute;
-    right: 100px;
-    bottom: 60px;
-    height: 40px;
+*/
+.dec{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
- */
+img.bottom-dec{
+    background-color: red;
+    width: 100px;
+}
+
 
